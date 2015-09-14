@@ -7,9 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <MapKit/MapKit.h>
+#import "CustomAnnotClass.h"
 
 @interface ViewController : UIViewController
-
-
+{
+    CLLocation *sourceCoordinate;
+    CLLocation *destinationCoordinate;
+}
+@property (weak, nonatomic) IBOutlet MKMapView *mMapView;
 @end
 

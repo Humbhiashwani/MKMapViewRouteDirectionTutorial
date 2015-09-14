@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		627ECF051BA731FF0078C71B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 627ECF041BA731FF0078C71B /* main.m */; };
-		627ECF081BA731FF0078C71B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 627ECF071BA731FF0078C71B /* AppDelegate.m */; };
-		627ECF0B1BA731FF0078C71B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 627ECF0A1BA731FF0078C71B /* ViewController.m */; };
 		627ECF0E1BA731FF0078C71B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 627ECF0C1BA731FF0078C71B /* Main.storyboard */; };
 		627ECF101BA731FF0078C71B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 627ECF0F1BA731FF0078C71B /* Images.xcassets */; };
 		627ECF131BA731FF0078C71B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 627ECF111BA731FF0078C71B /* LaunchScreen.xib */; };
 		627ECF1F1BA731FF0078C71B /* MKMapViewRouteDirectionTutorialTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 627ECF1E1BA731FF0078C71B /* MKMapViewRouteDirectionTutorialTests.m */; };
+		627ECF291BA732630078C71B /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 627ECF281BA732630078C71B /* MapKit.framework */; };
+		627ECF3B1BA745490078C71B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 627ECF331BA745490078C71B /* AppDelegate.m */; };
+		627ECF3C1BA745490078C71B /* CustomAnnotClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 627ECF351BA745490078C71B /* CustomAnnotClass.m */; };
+		627ECF3D1BA745490078C71B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 627ECF371BA745490078C71B /* ViewController.m */; };
+		627ECF3E1BA745490078C71B /* map_pointer.png in Resources */ = {isa = PBXBuildFile; fileRef = 627ECF391BA745490078C71B /* map_pointer.png */; };
+		627ECF3F1BA745490078C71B /* map_pointer@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 627ECF3A1BA745490078C71B /* map_pointer@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,16 +34,21 @@
 		627ECEFF1BA731FF0078C71B /* MKMapViewRouteDirectionTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MKMapViewRouteDirectionTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		627ECF031BA731FF0078C71B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		627ECF041BA731FF0078C71B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		627ECF061BA731FF0078C71B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		627ECF071BA731FF0078C71B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		627ECF091BA731FF0078C71B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		627ECF0A1BA731FF0078C71B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		627ECF0D1BA731FF0078C71B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		627ECF0F1BA731FF0078C71B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		627ECF121BA731FF0078C71B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		627ECF181BA731FF0078C71B /* MKMapViewRouteDirectionTutorialTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MKMapViewRouteDirectionTutorialTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		627ECF1D1BA731FF0078C71B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		627ECF1E1BA731FF0078C71B /* MKMapViewRouteDirectionTutorialTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MKMapViewRouteDirectionTutorialTests.m; sourceTree = "<group>"; };
+		627ECF281BA732630078C71B /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		627ECF321BA745490078C71B /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		627ECF331BA745490078C71B /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		627ECF341BA745490078C71B /* CustomAnnotClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomAnnotClass.h; sourceTree = "<group>"; };
+		627ECF351BA745490078C71B /* CustomAnnotClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomAnnotClass.m; sourceTree = "<group>"; };
+		627ECF361BA745490078C71B /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		627ECF371BA745490078C71B /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		627ECF391BA745490078C71B /* map_pointer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map_pointer.png; sourceTree = "<group>"; };
+		627ECF3A1BA745490078C71B /* map_pointer@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "map_pointer@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				627ECF291BA732630078C71B /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +73,7 @@
 		627ECEF61BA731FF0078C71B = {
 			isa = PBXGroup;
 			children = (
+				627ECF281BA732630078C71B /* MapKit.framework */,
 				627ECF011BA731FF0078C71B /* MKMapViewRouteDirectionTutorial */,
 				627ECF1B1BA731FF0078C71B /* MKMapViewRouteDirectionTutorialTests */,
 				627ECF001BA731FF0078C71B /* Products */,
@@ -81,12 +92,10 @@
 		627ECF011BA731FF0078C71B /* MKMapViewRouteDirectionTutorial */ = {
 			isa = PBXGroup;
 			children = (
-				627ECF061BA731FF0078C71B /* AppDelegate.h */,
-				627ECF071BA731FF0078C71B /* AppDelegate.m */,
-				627ECF091BA731FF0078C71B /* ViewController.h */,
-				627ECF0A1BA731FF0078C71B /* ViewController.m */,
-				627ECF0C1BA731FF0078C71B /* Main.storyboard */,
+				627ECF311BA745490078C71B /* Classes */,
+				627ECF381BA745490078C71B /* Image_Folder */,
 				627ECF0F1BA731FF0078C71B /* Images.xcassets */,
+				627ECF0C1BA731FF0078C71B /* Main.storyboard */,
 				627ECF111BA731FF0078C71B /* LaunchScreen.xib */,
 				627ECF021BA731FF0078C71B /* Supporting Files */,
 			);
@@ -117,6 +126,28 @@
 				627ECF1D1BA731FF0078C71B /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		627ECF311BA745490078C71B /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				627ECF321BA745490078C71B /* AppDelegate.h */,
+				627ECF331BA745490078C71B /* AppDelegate.m */,
+				627ECF341BA745490078C71B /* CustomAnnotClass.h */,
+				627ECF351BA745490078C71B /* CustomAnnotClass.m */,
+				627ECF361BA745490078C71B /* ViewController.h */,
+				627ECF371BA745490078C71B /* ViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		627ECF381BA745490078C71B /* Image_Folder */ = {
+			isa = PBXGroup;
+			children = (
+				627ECF391BA745490078C71B /* map_pointer.png */,
+				627ECF3A1BA745490078C71B /* map_pointer@2x.png */,
+			);
+			path = Image_Folder;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,9 +230,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				627ECF3E1BA745490078C71B /* map_pointer.png in Resources */,
 				627ECF0E1BA731FF0078C71B /* Main.storyboard in Resources */,
 				627ECF131BA731FF0078C71B /* LaunchScreen.xib in Resources */,
 				627ECF101BA731FF0078C71B /* Images.xcassets in Resources */,
+				627ECF3F1BA745490078C71B /* map_pointer@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,8 +252,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				627ECF0B1BA731FF0078C71B /* ViewController.m in Sources */,
-				627ECF081BA731FF0078C71B /* AppDelegate.m in Sources */,
+				627ECF3B1BA745490078C71B /* AppDelegate.m in Sources */,
+				627ECF3C1BA745490078C71B /* CustomAnnotClass.m in Sources */,
+				627ECF3D1BA745490078C71B /* ViewController.m in Sources */,
 				627ECF051BA731FF0078C71B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -416,6 +450,7 @@
 				627ECF241BA731FF0078C71B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		627ECF251BA731FF0078C71B /* Build configuration list for PBXNativeTarget "MKMapViewRouteDirectionTutorialTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +459,7 @@
 				627ECF271BA731FF0078C71B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

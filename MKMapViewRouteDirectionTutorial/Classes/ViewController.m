@@ -45,9 +45,9 @@
     static NSString *identifier = @"CustomAnnotClass";
     if ([annotation isKindOfClass:[CustomAnnotClass class]]) {
         
-        MKPinAnnotationView *annotationView = (MKPinAnnotationView *) [_mMapView dequeueReusableAnnotationViewWithIdentifier:identifier];
+        MKAnnotationView *annotationView = (MKAnnotationView *) [_mMapView dequeueReusableAnnotationViewWithIdentifier:identifier];
         if (annotationView == nil) {
-            annotationView = [[MKPinAnnotationView alloc] initWithAnnotation:annotation reuseIdentifier:identifier];
+            annotationView = [[MKAnnotationView alloc] initWithAnnotation:annotation reuseIdentifier:identifier];
             
         } else {
             annotationView.annotation = annotation;
